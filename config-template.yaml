@@ -1,0 +1,16 @@
+obs:
+  mode: auto   # options: auto, websocket, apple_script
+  recording_path: "/Users/Shared/OBSRecordings"
+  websocket_host: "localhost"
+  websocket_port: 4455
+  websocket_password: "your_password"
+
+transcription:
+  model: "small"  # options: tiny, base, small, medium, large
+
+ollama:
+  model: "phi4"  # options: llama2, mistral, etc.
+
+google_drive:
+  enabled: true
+  folder_id: "your_google_drive_folder_id"
