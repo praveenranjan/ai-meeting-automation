@@ -14,6 +14,7 @@ __pycache__/
 
 # Meeting output txt files
 *.txt
+!requirements.txt
 
 # macOS files
 .DS_Store
