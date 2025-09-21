@@ -1,0 +1,13 @@
+# Google API credentials
+client_secrets.json
+token.json
+
+# Any other local secrets
+*.yaml
+!config-template.yaml   # if you want to keep only the template config
+
+# Virtual environment
+.venv/
+
+# Python cache files
+__pycache__/

@@ -1,0 +1,8 @@
+langchain
+langchain-ollama
+ollama
+watchdog
+pyyaml
+openai-whisper
+obs-websocket-py
+pydrive2
