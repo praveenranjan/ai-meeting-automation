@@ -10,7 +10,7 @@ This project automates the full workflow of **recording meetings, transcribing, 
   - Start/Stop recording directly from the shell script.  
   - Optionally, provide a meeting name to use as filenames for recording, transcript, and summary.
 - **File Watcher**  
-  - Monitors your OBS recordings folder for new `.mkv` or `.mp4` files.  
+  - Monitors your OBS recordings folder for new `.mov`, `.mkv` or `.mp4` files.  
   - Automatically renames files based on meeting name if provided.
 - **Transcription**  
   - Uses [OpenAI Whisper](https://github.com/openai/whisper) for accurate speech-to-text.  
