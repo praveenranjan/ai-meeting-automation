@@ -11,3 +11,6 @@ token.json
 
 # Python cache files
 __pycache__/
+
+# txt files
+*.txt

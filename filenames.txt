@@ -1,2 +1,0 @@
-/Users/pranjan/Movies/test meet_transcript.txt
-/Users/pranjan/Movies/test meet_meeting_summary.txt
