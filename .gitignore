@@ -12,5 +12,9 @@ token.json
 # Python cache files
 __pycache__/
 
-# txt files
+# Meeting output txt files
 *.txt
+
+# macOS files
+.DS_Store
+.vscode/

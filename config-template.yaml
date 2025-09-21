@@ -9,7 +9,7 @@ transcription:
   model: "small"  # options: tiny, base, small, medium, large
 
 ollama:
-  model: "phi4"  # options: llama2, mistral, etc.
+  model: "phi4"  # options: gpt-oss, llama2, mistral, etc.
 
 google_drive:
   enabled: true
