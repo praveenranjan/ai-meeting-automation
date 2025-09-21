@@ -1,7 +1,6 @@
 # 🎥 Meeting Automation with OBS + Whisper + LangChain (Ollama) + Google Drive
 
-This project automates the full workflow of **recording meetings, transcribing, summarizing, and storing notes** in Google Drive.  
-It is built with **Python, LangChain, Whisper, Ollama, OBS, and PyDrive2**.
+This project automates the full workflow of **recording meetings, transcribing, summarizing, and storing notes** in Google Drive. It is built with **Python, LangChain, Whisper, Ollama, OBS, and PyDrive2**.
 
 ---
 
@@ -16,7 +15,7 @@ It is built with **Python, LangChain, Whisper, Ollama, OBS, and PyDrive2**.
 - **Transcription**  
   - Uses [OpenAI Whisper](https://github.com/openai/whisper) for accurate speech-to-text.  
 - **Summarization**  
-  - Powered by [LangChain](https://www.langchain.com/) with Ollama models (e.g., `llama2`, `mistral`).  
+  - Powered by [LangChain](https://www.langchain.com/) with Ollama models (e.g., `gpt-oss`, `llama2`, `mistral`).  
 - **Cloud Storage**  
   - Automatically uploads transcripts & summaries to Google Drive via [PyDrive2](https://docs.iterative.ai/PyDrive2/).
 
