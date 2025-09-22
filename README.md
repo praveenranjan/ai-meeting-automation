@@ -146,6 +146,7 @@ Only needed if you want transcripts & summaries uploaded.
 google_drive:
   enabled: true
   folder_id: your-folder-id
+```
 
 How to get your Google Drive folder ID:
 	1.	Open Google Drive in your browser.
