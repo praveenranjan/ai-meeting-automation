@@ -1,8 +1,18 @@
-langchain
-langchain-ollama
-ollama
-watchdog
-pyyaml
-openai-whisper
-obs-websocket-py
-pydrive2
+# Core LangChain packages
+langchain==0.3.7
+langchain-ollama>=0.1.4   # pick a version compatible with langchain-core 0.3.x
+langchain-community==0.3.7
+
+# Local LLM / Whisper
+ollama>=0.1.1
+openai-whisper>=20230314
+
+# File watching & YAML
+watchdog>=3.0.0
+pyyaml>=6.0
+
+# OBS integration
+obs-websocket-py>=1.0
+
+# Google Drive upload
+pydrive2>=1.16.0
