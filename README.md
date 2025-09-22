@@ -101,7 +101,7 @@ source .venv/bin/activate
 ├── obs_control.py         # OBS integration (WebSocket with AppleScript fallback)
 ├── watcher.py             # File watcher for new recordings (supports meeting name)
 ├── transcriber.py         # OpenAI Whisper-based transcription
-├── summarizer.py          # LangChain with Ollama model-based summarization
+├── summarizer.py          # LangChain with Ollama-based summarization
 ├── drive_uploader.py      # Uploads to Google Drive
 ├── config.yaml            # Configuration file
 ├── requirements.txt
