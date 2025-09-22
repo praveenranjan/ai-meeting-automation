@@ -92,6 +92,7 @@ google_drive:
 
 ### Start a Meeting Recording and Automation Pipeline
 ```bash
+cd ai-meeting-automation
 source .venv/bin/activate
 ./run_pipeline.sh
 ```
