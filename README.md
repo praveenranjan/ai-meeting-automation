@@ -63,7 +63,7 @@ transcription:
   model: "small"  # options: tiny, base, small, medium, large
 
 ollama:
-  model: "phi4"  # options: gpt-oss, llama2, mistral, etc.
+  model: "gpt-oss"  # options: gpt-oss, phi4, llama2, mistral, etc.
 
 google_drive:
   enabled: true
@@ -89,7 +89,8 @@ source .venv/bin/activate
 2. OBS recording starts automatically.  
 3. Script waits until you press **Enter**.  
 4. OBS recording stops.  
-5. File watcher picks up the recording, generates related filenames (using meeting name if provided), transcribes, summarizes, and uploads to Google Drive.
+5. File watcher picks up the recording, generates related filenames (using meeting name if provided), transcribes & summarizes the meeting.
+6. Transcript and meeting summary are uploaded to Google Drive.
 
 ---
 
@@ -102,7 +103,7 @@ source .venv/bin/activate
 ├── watcher.py             # File watcher for new recordings (supports meeting name)
 ├── transcriber.py         # OpenAI Whisper-based transcription
 ├── summarizer.py          # LangChain with Ollama-based summarization
-├── drive_uploader.py      # Uploads to Google Drive
+├── drive_uploader.py      # Uploads transcript & summary to Google Drive
 ├── config.yaml            # Configuration file
 ├── requirements.txt
 └── README.md

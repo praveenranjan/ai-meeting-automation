@@ -35,6 +35,9 @@ echo "Summarizing..."
 python3 -c "import summarizer; print(summarizer.summarize('$transcript', '$summary'))"
 
 echo "Uploading to Google Drive..."
-python3 -c "import gdrive_upload; gdrive_upload.upload_to_gdrive('$summary')"
+python3 - <<EOF
+import gdrive_upload
+gdrive_upload.upload_to_gdrive(["$transcript", "$summary"])
+EOF
 
-echo "Done! Meeting summary saved and uploaded."
+echo "Done! Meeting transcript and summary saved and uploaded."
