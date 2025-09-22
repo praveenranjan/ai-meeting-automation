@@ -98,10 +98,10 @@ source .venv/bin/activate
 ```
 .
 ├── run_pipeline.sh        # Main entry point
-├── obs_control.py         # OBS integration (WebSocket + AppleScript fallback)
+├── obs_control.py         # OBS integration (WebSocket with AppleScript fallback)
 ├── watcher.py             # File watcher for new recordings (supports meeting name)
-├── transcriber.py         # Whisper-based transcription
-├── summarizer.py          # LangChain summarization
+├── transcriber.py         # OpenAI Whisper-based transcription
+├── summarizer.py          # LangChain with Ollama model-based summarization
 ├── drive_uploader.py      # Uploads to Google Drive
 ├── config.yaml            # Configuration file
 ├── requirements.txt
