@@ -149,13 +149,12 @@ google_drive:
 ```
 
 How to get your Google Drive folder ID:
-	1.	Open Google Drive in your browser.
-	2.	Navigate to the folder where you want to upload files.
-	3.	Look at the URL in your browser’s address bar. Example:
-      https://drive.google.com/drive/folders/1a2B3cD4EfGhIJkLmNoPQRstuVwXYZ
-	4.	Copy the part after /folders/ as the folder ID:
-      1a2B3cD4EfGhIJkLmNoPQRstuVwXYZ
-	5.	Use this folder ID in your config.yaml.
+1.	Open Google Drive in your browser.
+2.	Navigate to the folder where you want to upload files.
+3.	Look at the URL in your browser’s address bar. Example:
+https://drive.google.com/drive/folders/1a2B3cD4EfGhIJkLmNoPQRstuVwXYZ
+4.	Copy the part after /folders/ as the folder ID: 1a2B3cD4EfGhIJkLmNoPQRstuVwXYZ
+5.	Use this ID in your config.yaml.
 
 Once set, transcripts and summaries will automatically upload into that folder.
 
